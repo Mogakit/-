@@ -1,1 +1,1 @@
-Hola,yo me llamo Marquez and Tomas.
+Hola,yo me llamo Marquez y Tomas.
