@@ -1,41 +1,41 @@
-# ��ӭʹ�� Cmd Markdown �༭�Ķ���
+# 欢迎使用 Cmd Markdown 编辑阅读器
 
 ------
 
-������������Ҫ����ݸ���Ч�Ĺ��߼�¼˼�룬�����ʼǡ�֪ʶ���������г��صļ�ֵ���������ˣ�**Cmd Markdown** �����Ǹ����Ĵ� ���� ����Ϊ��¼˼��ͷ���֪ʶ�ṩ��רҵ�Ĺ��ߡ� ������ʹ�� Cmd Markdown��
+我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，**Cmd Markdown** 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 Cmd Markdown：
 
-> * ����֪ʶ��ѧϰ�ʼ�
-> * �����ռǣ����ģ���������
-> * ׫д���������ĸ壨����֧�֣�
-> * ׫д����ѧ�����ģ�LaTeX ��ʽ֧�֣�
+> * 整理知识，学习笔记
+> * 发布日记，杂文，所见所想
+> * 撰写发布技术文稿（代码支持）
+> * 撰写发布学术论文（LaTeX 公式支持）
 
 ![cmd-markdown-logo](https://www.zybuluo.com/static/img/logo.png)
 
-���������ڿ�������� Cmd Markdown ���߰汾����������ǰ��������ַ���أ�
+除了您现在看到的这个 Cmd Markdown 在线版本，您还可以前往以下网址下载：
 
-### [Windows/Mac/Linux ȫƽ̨�ͻ���](https://www.zybuluo.com/cmd/)
+### [Windows/Mac/Linux 全平台客户端](https://www.zybuluo.com/cmd/)
 
-> �뱣���˷� Cmd Markdown �Ļ�ӭ���ʹ��˵��������׫д�¸������������������Ҳ�� <i class="icon-file"></i> **���ĸ�** ����ʹ�ÿ�ݼ� `Ctrl+Alt+N`��
+> 请保留此份 Cmd Markdown 的欢迎稿兼使用说明，如需撰写新稿件，点击顶部工具栏右侧的 <i class="icon-file"></i> **新文稿** 或者使用快捷键 `Ctrl+Alt+N`。
 
 ------
 
-## ʲô�� Markdown
+## 什么是 Markdown
 
-Markdown ��һ�ַ�����䡢��д�Ĵ��ı�������ԣ��û�����ʹ����Щ��Ƿ�������С������������ɼ������������ĵ���Ʃ���������Ķ�������ĵ�����ʹ�ü򵥵ķ��ű�ǲ�ͬ�ı��⣬�ָͬ�Ķ��䣬**����** ���� *б��* ĳЩ���֣��������ǣ���������
+Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，**粗体** 或者 *斜体* 某些文字，更棒的是，它还可以
 
-### 1. ����һ�ݴ������� [Todo �б�](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-��������-todo-�б�)
+### 1. 制作一份待办事宜 [Todo 列表](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-待办事宜-todo-列表)
 
-- [ ] ֧���� PDF ��ʽ�����ĸ�
-- [ ] �Ľ� Cmd ��Ⱦ�㷨��ʹ�þֲ���Ⱦ���������ȾЧ��
-- [x] ���� Todo �б�����
-- [x] �޸� LaTex ��ʽ��Ⱦ����
-- [x] ���� LaTex ��ʽ��Ź���
+- [ ] 支持以 PDF 格式导出文稿
+- [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
+- [x] 新增 Todo 列表功能
+- [x] 修复 LaTex 公式渲染问题
+- [x] 新增 LaTex 公式编号功能
 
-### 2. ��дһ�������غ㹫ʽ[^LaTeX]
+### 2. 书写一个质能守恒公式[^LaTeX]
 
 $$E=mc^2$$
 
-### 3. ����һ�δ���[^code]
+### 3. 高亮一段代码[^code]
 
 ```python
 @requires_authorization
@@ -47,7 +47,7 @@ if __name__ == '__main__':
     print 'hello world'
 ```
 
-### 4. ��Ч���� [����ͼ](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#7-����ͼ)
+### 4. 高效绘制 [流程图](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#7-流程图)
 
 ```flow
 st=>start: Start
@@ -60,7 +60,7 @@ cond(yes)->e
 cond(no)->op
 ```
 
-### 5. ��Ч���� [����ͼ](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#8-����ͼ)
+### 5. 高效绘制 [序列图](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#8-序列图)
 
 ```seq
 Alice->Bob: Hello Bob, how are you?
@@ -68,108 +68,107 @@ Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
 ```
 
-### 6. ���Ʊ���
+### 6. 绘制表格
 
-| ��Ŀ        | �۸�   |  ����  |
+| 项目        | 价格   |  数量  |
 | --------   | -----:  | :----:  |
-| �����     | \$1600 |   5     |
-| �ֻ�        |   \$12   |   12   |
-| ����        |    \$1    |  234  |
+| 计算机     | \$1600 |   5     |
+| 手机        |   \$12   |   12   |
+| 管线        |    \$1    |  234  |
 
-### 7. ����ϸ�﷨˵��
+### 7. 更详细语法说明
 
-��Ҫ�鿴����ϸ���﷨˵�������Բο�����׼���� [Cmd Markdown �����﷨�ֲ�][1]�������û����Բο� [Cmd Markdown �߽��﷨�ֲ�][2] �˽����߼����ܡ�
+想要查看更详细的语法说明，可以参考我们准备的 [Cmd Markdown 简明语法手册][1]，进阶用户可以参考 [Cmd Markdown 高阶语法手册][2] 了解更多高级功能。
 
-�ܶ���֮����ͬ������ *����������* �ı༭������ֻ��ʹ�ü���רע����д�ı����ݣ��Ϳ�������ӡˢ�����Ű��ʽ��ʡȴ�ڼ��̺͹�����֮�������л����������ݺ͸�ʽ���鷳��**Markdown ����������д��ӡˢ�����Ķ�����֮���ҵ���ƽ�⡣** Ŀǰ���Ѿ���Ϊ���������ļ���������վ GitHub �� �����ʴ���վ StackOverFlow ��������д��ʽ��
+总而言之，不同于其它 *所见即所得* 的编辑器：你只需使用键盘专注于书写文本内容，就可以生成印刷级的排版格式，省却在键盘和工具栏之间来回切换，调整内容和格式的麻烦。**Markdown 在流畅的书写和印刷级的阅读体验之间找到了平衡。** 目前它已经成为世界上最大的技术分享网站 GitHub 和 技术问答网站 StackOverFlow 的御用书写格式。
 
 ---
 
-## ʲô�� Cmd Markdown
+## 什么是 Cmd Markdown
 
-������ʹ�úܶ๤����д Markdown������ Cmd Markdown �����������������֪�ġ���õ� Markdown ���ߡ���û��֮һ ������Ϊ�������ֵ��������������Ǻ���һ������������д������˼���֪ʶ���Լ��Ķ������м��µ�׷�����ǰѶ�����Щ����Ļ�Ӧ������ Cmd Markdown������һ�Σ����Σ����Σ����������ε�����������ߵ����飬���ս����ݻ���һ�� **�༭/����/�Ķ�** Markdown ������ƽ̨�������������κεط����κ�ϵͳ/�豸�Ϲ�����������֡�
+您可以使用很多工具书写 Markdown，但是 Cmd Markdown 是这个星球上我们已知的、最好的 Markdown 工具——没有之一 ：）因为深信文字的力量，所以我们和你一样，对流畅书写，分享思想和知识，以及阅读体验有极致的追求，我们把对于这些诉求的回应整合在 Cmd Markdown，并且一次，两次，三次，乃至无数次地提升这个工具的体验，最终将它演化成一个 **编辑/发布/阅读** Markdown 的在线平台——您可以在任何地方，任何系统/设备上管理这里的文字。
 
-### 1. ʵʱͬ��Ԥ��
+### 1. 实时同步预览
 
-���ǽ� Cmd Markdown ��������һ��Ϊ�������Ϊ**�༭��**���ұ�Ϊ**Ԥ����**���ڱ༭���Ĳ�����ʵʱ����Ⱦ��Ԥ��������鿴���յİ���Ч�������������������һ�����϶���������������һ��������㷨����һ�����Ĺ�����ͬ�����ȼ۵�λ�ã����ᣡ
+我们将 Cmd Markdown 的主界面一分为二，左边为**编辑区**，右边为**预览区**，在编辑区的操作会实时地渲染到预览区方便查看最终的版面效果，并且如果你在其中一个区拖动滚动条，我们有一个巧妙的算法把另一个区的滚动条同步到等价的位置，超酷！
 
-### 2. �༭������
+### 2. 编辑工具栏
 
-Ҳ��������һ�� Markdown �﷨�����֣�������ȫ��Ϥ��֮ǰ�������� **�༭��** �Ķ���������һ������ͼ��ʾ�Ĺ�������������ʹ������ڹ������ϵ�����ʽ�����������Ծɹ�����ʹ�ü��̱�Ǹ�ʽ�������д�������ȡ�
+也许您还是一个 Markdown 语法的新手，在您完全熟悉它之前，我们在 **编辑区** 的顶部放置了一个如下图所示的工具栏，您可以使用鼠标在工具栏上调整格式，不过我们仍旧鼓励你使用键盘标记格式，提高书写的流畅度。
 
 ![tool-editor](https://www.zybuluo.com/static/img/toolbar-editor.png)
 
-### 3. �༭ģʽ
+### 3. 编辑模式
 
-��ȫ��������ķ�ʽ�༭���֣���� **�༭������** ���Ҳ�����찴ť���߰��� `Ctrl + M`���� Cmd Markdown �л��������ı༭ģʽ������һ�����ȼ���д�����������п��ܻ�������ĵ�Ԫ�ض��Ѿ���Ų��������ˬ��
+完全心无旁骛的方式编辑文字：点击 **编辑工具栏** 最右测的拉伸按钮或者按下 `Ctrl + M`，将 Cmd Markdown 切换到独立的编辑模式，这是一个极度简洁的写作环境，所有可能会引起分心的元素都已经被挪除，超清爽！
 
-### 4. ʵʱ���ƶ��ĸ�
+### 4. 实时的云端文稿
 
-Ϊ�˱������ݰ�ȫ��Cmd Markdown �Ὣ��ÿһ�λ��������ݱ������ƶˣ�ͬʱ�� **�༭������** �����Ҳ���ʾ `�ѱ���` �����������赣�����������������������ߵ��𣬺�Х�����ڱ༭�Ĺ�������ʱ�ر���������߻�������һ�λص� Cmd Markdown ��ʱ�����д����
+为了保障数据安全，Cmd Markdown 会将您每一次击键的内容保存至云端，同时在 **编辑工具栏** 的最右侧提示 `已保存` 的字样。无需担心浏览器崩溃，机器掉电或者地震，海啸——在编辑的过程中随时关闭浏览器或者机器，下一次回到 Cmd Markdown 的时候继续写作。
 
-### 5. ����ģʽ
+### 5. 离线模式
 
-�����绷�����ȶ�������¼�¼����һ���ܰ�ȫ������д����ʱ���������ͻȻʧȥ�������ӣ�Cmd Markdown �������л�������ģʽ������������������ֱ����ڱ��أ�ֱ������ָ��ٽ����Ǵ������ƶˣ���ʹ������ָ�ǰ�ر���������ߵ��ԣ�һ��û�����⣬�ȵ��´ο��� Cmd Markdown ��ʱ�����������������߱�������ִ������ƶˡ������֮�����Ǿ�����Ŭ�����������ֵİ�ȫ��
+在网络环境不稳定的情况下记录文字一样很安全！在您写作的时候，如果电脑突然失去网络连接，Cmd Markdown 会智能切换至离线模式，将您后续键入的文字保存在本地，直到网络恢复再将他们传送至云端，即使在网络恢复前关闭浏览器或者电脑，一样没有问题，等到下次开启 Cmd Markdown 的时候，她会提醒您将离线保存的文字传送至云端。简而言之，我们尽最大的努力保障您文字的安全。
 
-### 6. ����������
+### 6. 管理工具栏
 
-Ϊ�˱��ڹ��������ĸ壬�� **Ԥ����** �Ķ���������������ʾ�� **����������**��
+为了便于管理您的文稿，在 **预览区** 的顶部放置了如下所示的 **管理工具栏**：
 
 ![tool-manager](https://www.zybuluo.com/static/img/toolbar-manager.jpg)
 
-ͨ���������������ԣ�
+通过管理工具栏可以：
 
-<i class="icon-share"></i> ����������ǰ���ĸ����ɹ̶����ӣ��������Ϸ���������
-<i class="icon-file"></i> �½�����ʼ׫дһƪ�µ��ĸ�
-<i class="icon-trash"></i> ɾ����ɾ����ǰ���ĸ�
-<i class="icon-cloud"></i> ����������ǰ���ĸ�ת��Ϊ Markdown �ı����� Html ��ʽ��������������
-<i class="icon-reorder"></i> �б������������͹������ĸ嶼����������鿴������
-<i class="icon-pencil"></i> ģʽ���л� ��ͨ/Vim/Emacs �༭ģʽ
+<i class="icon-share"></i> 发布：将当前的文稿生成固定链接，在网络上发布，分享
+<i class="icon-file"></i> 新建：开始撰写一篇新的文稿
+<i class="icon-trash"></i> 删除：删除当前的文稿
+<i class="icon-cloud"></i> 导出：将当前的文稿转化为 Markdown 文本或者 Html 格式，并导出到本地
+<i class="icon-reorder"></i> 列表：所有新增和过往的文稿都可以在这里查看、操作
+<i class="icon-pencil"></i> 模式：切换 普通/Vim/Emacs 编辑模式
 
-### 7. �Ķ�������
+### 7. 阅读工具栏
 
 ![tool-manager](https://www.zybuluo.com/static/img/toolbar-reader.jpg)
 
-ͨ�� **Ԥ����** ���Ͻǵ� **�Ķ�������**�����Բ鿴��ǰ�ĸ��Ŀ¼����ǿ�Ķ����顣
+通过 **预览区** 右上角的 **阅读工具栏**，可以查看当前文稿的目录并增强阅读体验。
 
-�������ϵ����ͼ������Ϊ��
+工具栏上的五个图标依次为：
 
-<i class="icon-list"></i> Ŀ¼�����ٵ�����ǰ�ĸ��Ŀ¼�ṹ����ת������Ȥ�Ķ���
-<i class="icon-chevron-sign-left"></i> ��ͼ��������߱༭�����ұ�Ԥ������λ��
-<i class="icon-adjust"></i> ���⣺�����˺ڰ�����ģʽ�����⣬���� **��ɫ����**�����ţ�
-<i class="icon-desktop"></i> �Ķ�������������Ķ�ģʽ�ṩ��һ�����Ķ�����
-<i class="icon-fullscreen"></i> ȫ������࣬��࣬�ټ�࣬һ����ȫ����ʽ��д�����Ķ�����
+<i class="icon-list"></i> 目录：快速导航当前文稿的目录结构以跳转到感兴趣的段落
+<i class="icon-chevron-sign-left"></i> 视图：互换左边编辑区和右边预览区的位置
+<i class="icon-adjust"></i> 主题：内置了黑白两种模式的主题，试试 **黑色主题**，超炫！
+<i class="icon-desktop"></i> 阅读：心无旁骛的阅读模式提供超一流的阅读体验
+<i class="icon-fullscreen"></i> 全屏：简洁，简洁，再简洁，一个完全沉浸式的写作和阅读环境
 
-### 8. �Ķ�ģʽ
+### 8. 阅读模式
 
-�� **�Ķ�������** ��� <i class="icon-desktop"></i> ���߰��� `Ctrl+Alt+M` �漴����������Ķ�ģʽ���棬�����ڰ�����Ⱦ�ϵ�ÿһ��ϸ�ڣ����壬�ֺţ��м�࣬ǰ����ɫ����ע�˴�����ʱ�䣬Ŭ�������Ķ��������Ʒ�ʡ�
+在 **阅读工具栏** 点击 <i class="icon-desktop"></i> 或者按下 `Ctrl+Alt+M` 随即进入独立的阅读模式界面，我们在版面渲染上的每一个细节：字体，字号，行间距，前背景色都倾注了大量的时间，努力提升阅读的体验和品质。
 
-### 9. ��ǩ�����������
+### 9. 标签、分类和搜索
 
-�ڱ༭����������λ���������¸�ʽ�����ֿ��Ա�ǩ��ǰ�ĵ���
+在编辑区任意行首位置输入以下格式的文字可以标签当前文档：
 
-��ǩ�� δ����
+标签： 未分类
 
-��ǩ�Ժ���ĸ��ڡ��ļ��б�����Ctrl+Alt+F����ᰴ�ձ�ǩ���࣬�û�����ͬʱʹ�ü��̻����������鿴�������ڡ��ļ��б����������ı�������������ؼ��ֹ����ĸ壬����ͼ��ʾ��
+标签以后的文稿在【文件列表】（Ctrl+Alt+F）里会按照标签分类，用户可以同时使用键盘或者鼠标浏览查看，或者在【文件列表】的搜索文本框内搜索标题关键字过滤文稿，如下图所示：
 
 ![file-list](https://www.zybuluo.com/static/img/file-list.png)
 
-### 10. �ĸ巢���ͷ���
+### 10. 文稿发布和分享
 
-����ʹ�� Cmd Markdown ��¼���������������Ķ��ĸ��ͬʱ�����ǲ���ϣ������һ�������Ĺ��ߣ���ϣ������˼���֪ʶͨ�����ƽ̨����ͬ���ʵ��Ķ����飬�����Ƿ���������ͬ־Ȥ���ˣ�������������������������¼�������ǵ�˼���֪ʶ�����Ե�� <i class="icon-share"></i> (Ctrl+Alt+P) ��������ĵ������Ѱɣ�
+在您使用 Cmd Markdown 记录，创作，整理，阅读文稿的同时，我们不仅希望它是一个有力的工具，更希望您的思想和知识通过这个平台，连同优质的阅读体验，将他们分享给有相同志趣的人，进而鼓励更多的人来到这里记录分享他们的思想和知识，尝试点击 <i class="icon-share"></i> (Ctrl+Alt+P) 发布这份文档给好友吧！
 
 ------
 
-��һ�θ�л������ʱ���Ķ���ݻ�ӭ�壬��� <i class="icon-file"></i> (Ctrl+Alt+N) ��ʼ׫д�µ��ĸ�ɣ�ף���������¼���Ķ���������죡
+再一次感谢您花费时间阅读这份欢迎稿，点击 <i class="icon-file"></i> (Ctrl+Alt+N) 开始撰写新的文稿吧！祝您在这里记录、阅读、分享愉快！
 
-���� [@ghosert][3]     
-2015 �� 06�� 15��    
+作者 [@ghosert][3]     
+2015 年 06月 15日    
 
-[^LaTeX]: ֧�� **LaTeX** �༭��ʾ֧�֣����磺$\sum_{i=1}^n a_i=0$�� ���� [MathJax][4] �ο�����ʹ�÷�����
+[^LaTeX]: 支持 **LaTeX** 编辑显示支持，例如：$\sum_{i=1}^n a_i=0$， 访问 [MathJax][4] 参考更多使用方法。
 
-[^code]: �����������֧�ְ��� Java, Python, JavaScript ���ڵģ�**��ʮһ**������������ԡ�
+[^code]: 代码高亮功能支持包括 Java, Python, JavaScript 在内的，**四十一**种主流编程语言。
 
 [1]: https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown
-[2]: https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-�߽��﷨�ֲ�
+[2]: https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-高阶语法手册
 [3]: http://weibo.com/ghosert
 [4]: http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
-
